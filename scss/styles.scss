@@ -550,7 +550,6 @@ footer {
 .vtimeline-point {
   position: relative;
   display: block;
-  vertical-align: top;
   margin-bottom: 30px;
 }
 
@@ -672,6 +671,8 @@ footer {
 .project-info {
   text-align: center;
   margin: auto;
+  min-height: 100px;
+  padding-top: 12px;
   h3 {
     font-size: 1.5em;
     font-weight: 300;
@@ -871,7 +872,7 @@ footer {
     text-align: center;
 
     p {
-      text-align: left;
+      text-align: center;
     }
   }
 }
@@ -948,6 +949,7 @@ footer {
   #lead-content {
     h1 {
       font-size: 1.5em;
+      margin: auto;
     }
 
     h2 {
